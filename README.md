@@ -55,27 +55,43 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
   - Statuses & custom fields
 - Data processed in Databricks for dashboarding
 
-### Dashboards Visualize:
-- Task Aging (Board Creation & Start Date Based)
-- Onboarding Status by Customer
-- Delay Reasons (Logged by CSMs/AMs)
+## Visuals
 
-## 📊 Dashboard KPIs
+### Aging Days Based On:
+- **Board Creation Date**
+- **Project Start Date (Actual Work Commencement)**
 
-- **Implementation Status:**  
-  - 🔴 Red – Overdue  
-  - 🟡 Yellow – On Track  
-  - 🟢 Green – Go-Live  
+---
 
-- **Project Aging:**  
-  - Based on board creation date and actual task start
+### Project Tasks Overview:
+- **Status Distribution:**
+  - To Do
+  - In Progress
+  - Completed
+  
+- **Phase-wise Progress:**
+  - Phase 01 to Phase 07
 
-- **Delay Comments:**  
-  - Captured manually by CSMs/AMs for context
+---
 
-- **Quarterly Segmentation:**  
-  - Customers categorized by onboarding quarter
+### Individual Dashboards per Assignee:
+- Number of tasks completed, pending, and overdue
+- Personalized workload summaries
 
+---
+
+### Overall Project Status View:
+- High-level implementation stage for each customer
+- **Traffic-light Indicators:**
+  - 🔴 **Red** – Overdue
+  - 🟡 **Yellow** – On Track
+  - 🟢 **Green** – Go-Live
+
+---
+
+### Quarterly Cohort Segmentation:
+- Customers grouped based on onboarding quarter
+- Used to track lifecycle and delivery aging
 ---
 
 ## 📁 Supporting Assets
@@ -83,38 +99,22 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
 | Path                            | Description                        |
 |---------------------------------|------------------------------------|
 | `docs/white-paper.pdf`          | Full project documentation         |
-| `docs/onboarding_workflow.pptx` | Visual walkthrough presentation    |
-| `dashboard-assets/`             | Dashboard snapshots and graphs     |
 
 ---
 
 ## 📈 Results
 
-- 📈 **30% increase** in on-time onboarding completions  
-- 👁️ **Real-time visibility** into blockers and KPIs  
-- 🔄 **Reduced manual follow-ups** via automation  
+- 📅 **30% reduction** in manual follow-ups through task tracking automation (due dates, reminders, status updates).
+- 🕒 **40% decrease** in missed deadlines due to streamlined workflows and automatic status updates.
+- 🔍 **Increased project visibility** with real-time status and due date tracking, empowering teams to stay on top of progress.
+- 📈 **Boosted team efficiency**, leading to faster task completion and improved accountability.
 
 ---
 
 ## 👤 Authors & Maintainers
 
-**[Your Name]** – Project Manager & Automation Lead  
-📧 Email: [your.email@example.com]  
-🔗 LinkedIn: [linkedin.com/in/yourprofile]  
-
----
-
-## 📃 License
-
-This project is for internal documentation and demonstration purposes.  
-Please contact the author before reuse or external distribution.
-
----
-
-## 📥 Setup Instructions
-
-For replication or integration, refer to:
-- `api-integration/setup.md`
-- `automation-rules/readme.md`
+**[Avinash M]** – Business Analyst  
+📧 Email: [avinashsolai@gmail.com]  
+🔗 LinkedIn: [www.linkedin.com/in/avinash-m-va73]  
 
 ---
