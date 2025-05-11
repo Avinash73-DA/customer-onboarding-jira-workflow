@@ -117,4 +117,8 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
 📧 Email: [avinashsolai@gmail.com]  
 🔗 LinkedIn: [www.linkedin.com/in/avinash-m-va73]  
 
+**Mentor: [Ashray Kiran]** – Senior Associate Revops  
+📧 Email: [ashrayking94@gmail.com]  
+🔗 LinkedIn: [www.linkedin.com/in/ashray-kiran-927932b4]  
+
 ---
