@@ -45,7 +45,7 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
 
 ---
 
-## 🔗 JIRA API + Databricks Integration
+""# 🔗 JIRA API + Databricks Integration
 
 > Located in `/api-integration/`
 
@@ -55,15 +55,17 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
   - Statuses & custom fields
 - Data processed in Databricks for dashboarding
 
-## Visuals
+---
 
-### Aging Days Based On:
+## 📊 Visuals
+
+### 📌 Aging Days Based On:
 - **Board Creation Date**
 - **Project Start Date (Actual Work Commencement)**
 
 ---
 
-### Project Tasks Overview:
+### 🚀 Project Tasks Overview:
 - **Status Distribution:**
   - To Do
   - In Progress
@@ -74,11 +76,10 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
 
 ---
 
-### Individual Dashboards per Assignee:
+### 👤 Individual Dashboards per Assignee:
 - Number of tasks completed, pending, and overdue
 - Personalized workload summaries
-
----
+""
 
 ### Overall Project Status View:
 - High-level implementation stage for each customer
