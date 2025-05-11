@@ -98,7 +98,9 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
 
 | Path                            | Description                        |
 |---------------------------------|------------------------------------|
-| `docs/white-paper.pdf`          | Full project documentation         |
+| `docs/documentation.pdf`        | Full project documentation         |
+| `docs/Workflow_Schema.jpg`      | Project Workflow Structure         |
+| `docs/Automation.jpg`           | Project Automation                 |
 
 ---
 
