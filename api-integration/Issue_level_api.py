@@ -47,10 +47,10 @@ import requests
                  break
              start_at += max_results
          else:
-             print("✅ No more issues found.")
+             print("No more issues found.")
              break
      else:
-         print(f"❌ Failed with status code: {response.status_code}")
+         print(f"Failed with status code: {response.status_code}")
          print(response.text)
          break
  
@@ -58,11 +58,11 @@ import requests
  
      issues_df = pd.json_normalize(all_issues)
  
-     print("\n✅ All Issues Fetched and Formatted:")
+     print("\nAll Issues Fetched and Formatted:")
      pd.set_option("display.max_rows", None)
      pd.set_option("display.max_columns", None)
      pd.set_option("display.width", 1000)
      pd.set_option("display.max_colwidth", None)
      display(issues_df)
  else:
-     print("\n❌ No issues found.")
+     print("\nNo issues found.")
