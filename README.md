@@ -45,7 +45,7 @@ Aimed at improving **visibility**, **accountability**, and **efficiency** during
 
 ---
 
-""# 🔗 JIRA API + Databricks Integration
+# 🔗 JIRA API + Databricks Integration
 
 > Located in `/api-integration/`
 
