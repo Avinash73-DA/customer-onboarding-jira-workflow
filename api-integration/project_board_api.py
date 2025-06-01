@@ -43,10 +43,10 @@ import requests
                  break
              start_at += max_results
          else:
-             print("✅ No more issues found.")
+             print("No more issues found.")
              break
      else:
-         print(f"❌ Failed with status code: {response.status_code}")
+         print(f"Failed with status code: {response.status_code}")
          print(response.text)
          break
  
@@ -55,7 +55,7 @@ import requests
  
      if 'fields.project.key' in issues_df.columns:
          project_keys = issues_df['fields.project.key'].unique().tolist()
-         print("\n✅ Found Project Keys:", project_keys)
+         print("\nFound Project Keys:", project_keys)
  
          project_data = []
  
@@ -71,12 +71,12 @@ import requests
                  project_details = project_response.json()
                  project_data.append(project_details)
              else:
-                 print(f"❌ Failed to fetch details for project: {key}")
+                 print(f"Failed to fetch details for project: {key}")
  
          if project_data:
              project_df = pd.json_normalize(project_data)
  
-             print("\n✅ Project Details:")
+             print("\nProject Details:")
              pd.set_option("display.max_rows", None)
              pd.set_option("display.max_columns", None)
              pd.set_option("display.width", 1000)
@@ -85,8 +85,8 @@ import requests
              display(project_df)
  
          else:
-             print("\n❌ No project details found.")
+             print("\nNo project details found.")
      else:
-         print("\n❌ 'fields.project.key' column not found in the data.")
+         print("\n'fields.project.key' column not found in the data.")
  else:
-     print("\n❌ No issues found.")
+     print("\nNo issues found.")
